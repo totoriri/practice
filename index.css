@@ -1,0 +1,200 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin:0 ;
+  font-family: "Hiragino Kaku Gothic ProN";
+}
+
+a {
+  text-decoration: none;
+  margin-right: 20px;
+
+}
+
+.container {
+  width: 100%;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  background-image: url(free_ice_cream.jpg);
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+
+
+header {
+  height: 75px;
+  width: 100%;
+  background-color: rgba(34,49,52,0.9);
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  width: 124px;
+  margin-top: 20px;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-center {
+  float:left;
+
+}
+
+.header-center a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.header-center a:hover {
+  background-color: rgba(255,255,255,0.3);
+}
+
+.ice-search{
+  max-width:350px;
+  max-height:450px;
+}
+
+.flavors {
+  height: 580px;
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.ice-icon{
+
+  transition: all 1s;
+}
+
+.ice-icon:hover{
+  transform: translate(5px,5px);
+  }
+
+
+
+.heading {
+  padding-top: 80px;
+  padding-bottom: 50px;
+  color: #5f5d60;
+}
+
+.heading  {
+  font-weight: normal;
+}
+
+.products {
+  font-weight: normal;
+  text-align: center;
+}
+.product {
+  float: left;
+  width: 25%;
+}
+
+
+
+
+.text-contents {
+  width: 100%;
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 20px;
+  color: #b3aeb5;
+}
+
+.heading {
+  font-weight: normal;
+  text-align: center;
+}
+
+
+
+
+footer {
+  padding-top: 30px;
+  padding-bottom: 20px;
+  text-align: center;
+
+}
+
+
+
+.clear {
+  clear: left;
+}
+
+
+
+
+@media all and (max-width: 1000px) {
+  .product {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+
+  .flavors{
+    height: 990px;
+  }
+  footer {
+      text-align: center;
+    }
+
+}
+
+
+@media all and (max-width: 750px) {
+  .top-wrapper h1 {
+    font-size: 32px;
+  }
+
+  .heading h1 {
+    font-size: 20px;
+  }
+}
+
+@media all and (max-width: 670px) {
+  .header-center {
+    display: none;
+  }
+
+
+
+
+  .top-wrapper {
+    text-align: left;
+  }
+
+  .top-wrapper h1 {
+    font-size: 24px;
+  }
+
+  .top-wrapper p {
+    font-size: 14px;
+  }
+
+  .product {
+    width: 100%;
+  }
+
+  .flavors {
+    height: 1700px;
+  }
+
+}
