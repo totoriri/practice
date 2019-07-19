@@ -84,3 +84,25 @@ header {
   width: 100%;
   color: blue;
 }
+
+
+#sns{
+  background: #faf7f0;
+  padding:4% 0;
+
+}
+
+#sns .sub-title{
+  margin-bottom: 38px;
+
+}
+
+.sns-box{
+  width:30%;
+}
+
+
+
+.sns-box iframe{
+  text-align: center;
+}
